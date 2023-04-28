@@ -1,4 +1,4 @@
-function [Xt, triggers] = triggered_array(X, triggers, n_pre, n_post)
+function [Xt, triggers, iBad] = triggered_array(X, triggers, n_pre, n_post)
 %TRIGGERED_ARRAY  Convert X from array to triggered array snippets
 %
 % Syntax:
